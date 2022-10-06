@@ -1,0 +1,2362 @@
+{
+  "uuid": "b46240f43484338566fa1b76f635d941",
+  "path": "Offline/Dronmarket Controller",
+  "name": "Dronmarket Controller",
+  "content": "Drn Controller",
+  "created_at": "2020-06-09 15:47:53",
+  "updated_at": "2020-06-09 18:02:18",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "c4da1992aa631a63faeae791dff2fc55",
+      "title": "Cpu Sheet",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "IC_UC_STM32",
+          1,
+          "LQFP48",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "473529f3a20749d3aefffda51c9401bb",
+            "uuid": ""
+          }
+        ],
+        [
+          "HEADER-20P-2.54",
+          2,
+          "H20-2.54",
+          "J1,J2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "25fe952f38a943059348091dc01eeccc",
+            "uuid": ""
+          }
+        ],
+        [
+          "header4",
+          1,
+          "H4-2.54",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "f7a70c43bedd425894f6ff7b10746010",
+            "uuid": ""
+          }
+        ],
+        [
+          "100nF",
+          5,
+          "0603",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B104K500NT",
+            "BOM_Supplier Part": "E30926",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "510Ω",
+          2,
+          "0603",
+          "R1,R2",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "LEDCHIPLED_0805",
+          2,
+          "CHIPLED_0805",
+          "LED1,LED2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "2fc4d562f5374a47b197e88d1c17fb94",
+            "uuid": ""
+          }
+        ],
+        [
+          "8M",
+          1,
+          "HC-49U",
+          "XTAL1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "fe9ef86a95d5430db2850d0d5beb110b",
+            "uuid": ""
+          }
+        ],
+        [
+          "1M",
+          1,
+          "0603",
+          "R3",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "105",
+          1,
+          "0603",
+          "C14",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B104K500NT",
+            "BOM_Supplier Part": "E30926",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "10K",
+          1,
+          "0603",
+          "R7",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "2P-SW-SMD",
+          1,
+          "2PSW-SMD",
+          "S1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "5287fda756d740219e1cead855ec9761",
+            "uuid": ""
+          }
+        ],
+        [
+          "100K",
+          2,
+          "0603",
+          "R8,R9",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "F185-1203A1BSYA1",
+          1,
+          "H2X3-2.54",
+          "J4",
+          {
+            "BOM_Supplier": "SeeedStudio",
+            "BOM_Manufacturer Part": "F185-1203A1BSYA1",
+            "BOM_Supplier Part": "320030011",
+            "puuid": "f4f5e0556f884d0a91b0ccc3c7e34061",
+            "uuid": ""
+          }
+        ],
+        [
+          "CAP",
+          2,
+          "0603-CAP",
+          "C6,C7",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "7d800e8be4c24b9d84cc3cb042fcd29a",
+            "uuid": ""
+          }
+        ],
+        [
+          "BM06B-GHS-TBT(LF)(SN)(N",
+          1,
+          "CONN-SMD_6P-P1.25_BM06B-GHS-TBT(LF)(SN)(N",
+          "U11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C189892",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "BM06B-GHS-TBT(LF)(SN)(N",
+            "puuid": "c7cdc8d1589548b2ac327dfc5346a150",
+            "uuid": "0b9c56ae23514266bc0a8cb39be3dec1"
+          }
+        ],
+        [
+          "100uH",
+          1,
+          "IND-SMD_L12.0-W12.0",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C397808",
+            "BOM_Manufacturer": "Sunltech Tech",
+            "BOM_Manufacturer Part": "SLH1204S101MTT",
+            "puuid": "0859426ee4d44657957e59002fee2887",
+            "uuid": "4a2a36c77d7340649cbf8398a8e8e384"
+          }
+        ],
+        [
+          "10.2K",
+          1,
+          "R0805",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "53.6K",
+          1,
+          "R0805",
+          "R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "16.9K",
+          1,
+          "R0805",
+          "R12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "243K",
+          1,
+          "R0805",
+          "R13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "90.9K",
+          1,
+          "R0805",
+          "R14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "442K",
+          1,
+          "R0805",
+          "R15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "B540C-13-F",
+          1,
+          "SMC_L6.9-W5.9-LS7.9-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "DIODES",
+            "BOM_Manufacturer Part": "B540C-13-F",
+            "BOM_Supplier Part": "C72264",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7d9bf6c8863c45219d27799069b7bb4d",
+            "uuid": "9dbe69c148d945d0b3a243e711f02dca"
+          }
+        ],
+        [
+          "24.9K",
+          1,
+          "R0805",
+          "R16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2492T5E",
+            "BOM_Supplier Part": "C17571",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "086ba67bf9d04ba3928dad9ed8fda700"
+          }
+        ],
+        [
+          "210K",
+          1,
+          "R0805",
+          "R17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2103T5E",
+            "BOM_Supplier Part": "C17547",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "447a785e455f195a0c7102942ce62120"
+          }
+        ],
+        [
+          "4.7uF",
+          3,
+          "CAP-SMD_BD4.0-L4.3-W4.3-FD",
+          "C11,C12,C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "CS1C4R7M-CRC54",
+            "BOM_Supplier Part": "C116396",
+            "puuid": "049abf8d4a024668bc414a4ecc76ecfc",
+            "uuid": "714f20c8796a4edc918f2852324afa51"
+          }
+        ],
+        [
+          "4.7uF",
+          2,
+          "CAP-SMD_BD5.0-L5.3-W5.3-FD",
+          "C16,C17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C264058",
+            "BOM_Manufacturer": "PANASONIC",
+            "BOM_Manufacturer Part": "EEEFK1J4R7R",
+            "puuid": "b4499b8294224146ab63584189efd00f",
+            "uuid": "a3b223946c674f52b548c5901a5b0943"
+          }
+        ],
+        [
+          "LM1117S-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HTC",
+            "BOM_Manufacturer Part": "LM1117S-3.3",
+            "BOM_Supplier Part": "C126027",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "a7733dd1999e4972ab1ac55464a84185"
+          }
+        ],
+        [
+          "TPS54560DDAR",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP",
+          "U15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "TPS54560DDAR",
+            "BOM_Supplier Part": "C31966",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "1c299b56118d49eea03a1cb3b143481c",
+            "uuid": "b73f6ec215a841d6805a909376336eed"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C9,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C131173",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TLJA476M010R0600",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "61ca4390f2284e11848b2ab1e8ce9766",
+            "uuid": "f4a354b31bd047b8b8ca6b867b3929ad"
+          }
+        ],
+        [
+          "100 nF",
+          1,
+          "C0805",
+          "C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "4.7 uF",
+          1,
+          "C0805",
+          "C15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "TJA1051T/1J",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NXP",
+            "BOM_Manufacturer Part": "TJA1051T/1J",
+            "BOM_Supplier Part": "C92211",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "fea11772be3e46fc9943dcf3594665f6",
+            "uuid": "1f1539161d874efe8b9b7289d25f9c9c"
+          }
+        ],
+        [
+          "100",
+          2,
+          "R0805",
+          "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8J0101T5E",
+            "BOM_Supplier Part": "C25277",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "02d74a7a73a4602d93b4706b03a5c70f"
+          }
+        ],
+        [
+          "10uH",
+          2,
+          "L0805",
+          "L2,L3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111772",
+            "BOM_Manufacturer": "Shenzhen Zhenhua Fu Elec",
+            "BOM_Manufacturer Part": "CI2012C100K(f)",
+            "puuid": "8575d4a67a3f4c179607f0acaae4f7e7",
+            "uuid": "6f599768c16c4826898a5271fb1d5a3f"
+          }
+        ],
+        [
+          "micro 5PBoard7.2Long leg1.1No column",
+          1,
+          "MICRO-USB-SMD_U-F-M5DS-Y-1",
+          "USB2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro 5PBoard7.2Long leg1.1No column",
+            "BOM_Supplier Part": "C40951",
+            "puuid": "7ef0192927184a0ca10e72d3ae683a9d",
+            "uuid": "a765318d9d42445dadb725ea2a780055"
+          }
+        ],
+        [
+          "BM04B-GHS-TBT(LF)(SN)",
+          2,
+          "CONN-SMD_4P-P1.25_BM04B-GHS-TBT(LF)(SN)",
+          "CN1,CN2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C161692",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "BM04B-GHS-TBT(LF)(SN)",
+            "puuid": "e5f4e8a3078e4c3fb8fc77100390337f",
+            "uuid": "b970ddcfabf1410591dc576fc46cd571"
+          }
+        ],
+        [
+          "FT232RL-REEL",
+          1,
+          "SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FTDI",
+            "BOM_Manufacturer Part": "FT232RL-REEL",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C8690",
+            "puuid": "0a5feb38832f43d299fcddfcb8bc7426",
+            "uuid": "c3ea0f04045a57b4ed605f24deecdb76"
+          }
+        ],
+        [
+          "10nF",
+          5,
+          "C0805",
+          "C19,C20,C22,C23,C24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WTC",
+            "BOM_Manufacturer Part": "0805B103K500",
+            "BOM_Supplier Part": "C83058",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "f1aeea4c41e4e7763018f1fbd6b73120"
+          }
+        ],
+        [
+          "1nF",
+          1,
+          "C0805",
+          "C26",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WTC",
+            "BOM_Manufacturer Part": "0805B103K500",
+            "BOM_Supplier Part": "C83058",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "f1aeea4c41e4e7763018f1fbd6b73120"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C21,C25",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C131173",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TLJA476M010R0600",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "61ca4390f2284e11848b2ab1e8ce9766",
+            "uuid": "f4a354b31bd047b8b8ca6b867b3929ad"
+          }
+        ]
+      ],
+      "updateTime": 1591714921,
+      "createTime": 1591707492,
+      "histories": [],
+      "created_at": "2020-06-09 15:58:12",
+      "updated_at": "2020-06-09 18:02:01"
+    },
+    {
+      "uuid": "9fe0bbfdc8aed5f78f7725f74dd722ea",
+      "title": "Power Sheet",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9ad0161293bd42799a79b159cb9c5f3f": 6,
+        "fa21b000d3d14043b770f524fd9009d9": 3,
+        "4a2a36c77d7340649cbf8398a8e8e384": 1,
+        "9dbe69c148d945d0b3a243e711f02dca": 1,
+        "714f20c8796a4edc918f2852324afa51": 3,
+        "a3b223946c674f52b548c5901a5b0943": 2,
+        "b73f6ec215a841d6805a909376336eed": 1,
+        "a7733dd1999e4972ab1ac55464a84185": 1,
+        "f4a354b31bd047b8b8ca6b867b3929ad": 2,
+        "0b9c56ae23514266bc0a8cb39be3dec1": 1,
+        "086ba67bf9d04ba3928dad9ed8fda700": 1,
+        "447a785e455f195a0c7102942ce62120": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "IC_UC_STM32",
+          1,
+          "LQFP48",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "473529f3a20749d3aefffda51c9401bb",
+            "uuid": ""
+          }
+        ],
+        [
+          "HEADER-20P-2.54",
+          2,
+          "H20-2.54",
+          "J1,J2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "25fe952f38a943059348091dc01eeccc",
+            "uuid": ""
+          }
+        ],
+        [
+          "header4",
+          1,
+          "H4-2.54",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "f7a70c43bedd425894f6ff7b10746010",
+            "uuid": ""
+          }
+        ],
+        [
+          "100nF",
+          5,
+          "0603",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B104K500NT",
+            "BOM_Supplier Part": "E30926",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "510Ω",
+          2,
+          "0603",
+          "R1,R2",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "LEDCHIPLED_0805",
+          2,
+          "CHIPLED_0805",
+          "LED1,LED2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "2fc4d562f5374a47b197e88d1c17fb94",
+            "uuid": ""
+          }
+        ],
+        [
+          "8M",
+          1,
+          "HC-49U",
+          "XTAL1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "fe9ef86a95d5430db2850d0d5beb110b",
+            "uuid": ""
+          }
+        ],
+        [
+          "1M",
+          1,
+          "0603",
+          "R3",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "USB-Micro-1",
+          1,
+          "MICROUSB",
+          "USB1",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "EasyEDA",
+            "BOM_Manufacturer Part": "USB-Micro-1",
+            "BOM_Supplier Part": "E40939",
+            "puuid": "",
+            "uuid": ""
+          }
+        ],
+        [
+          "20R",
+          2,
+          "0603",
+          "R4,R5",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "4.7K",
+          1,
+          "0603",
+          "R6",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "105",
+          1,
+          "0603",
+          "C14",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B104K500NT",
+            "BOM_Supplier Part": "E30926",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "10K",
+          1,
+          "0603",
+          "R7",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "2P-SW-SMD",
+          1,
+          "2PSW-SMD",
+          "S1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "5287fda756d740219e1cead855ec9761",
+            "uuid": ""
+          }
+        ],
+        [
+          "100K",
+          2,
+          "0603",
+          "R8,R9",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "F185-1203A1BSYA1",
+          1,
+          "H2X3-2.54",
+          "J4",
+          {
+            "BOM_Supplier": "SeeedStudio",
+            "BOM_Manufacturer Part": "F185-1203A1BSYA1",
+            "BOM_Supplier Part": "320030011",
+            "puuid": "f4f5e0556f884d0a91b0ccc3c7e34061",
+            "uuid": ""
+          }
+        ],
+        [
+          "CAP",
+          2,
+          "0603-CAP",
+          "C6,C7",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "7d800e8be4c24b9d84cc3cb042fcd29a",
+            "uuid": ""
+          }
+        ],
+        [
+          "BM06B-GHS-TBT(LF)(SN)(N",
+          1,
+          "CONN-SMD_6P-P1.25_BM06B-GHS-TBT(LF)(SN)(N",
+          "U11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C189892",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "BM06B-GHS-TBT(LF)(SN)(N",
+            "puuid": "c7cdc8d1589548b2ac327dfc5346a150",
+            "uuid": "0b9c56ae23514266bc0a8cb39be3dec1"
+          }
+        ],
+        [
+          "100uH",
+          1,
+          "IND-SMD_L12.0-W12.0",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C397808",
+            "BOM_Manufacturer": "Sunltech Tech",
+            "BOM_Manufacturer Part": "SLH1204S101MTT",
+            "puuid": "0859426ee4d44657957e59002fee2887",
+            "uuid": "4a2a36c77d7340649cbf8398a8e8e384"
+          }
+        ],
+        [
+          "10.2K",
+          1,
+          "R0805",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "53.6K",
+          1,
+          "R0805",
+          "R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "16.9K",
+          1,
+          "R0805",
+          "R12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "243K",
+          1,
+          "R0805",
+          "R13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "90.9K",
+          1,
+          "R0805",
+          "R14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "442K",
+          1,
+          "R0805",
+          "R15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "B540C-13-F",
+          1,
+          "SMC_L6.9-W5.9-LS7.9-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "DIODES",
+            "BOM_Manufacturer Part": "B540C-13-F",
+            "BOM_Supplier Part": "C72264",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7d9bf6c8863c45219d27799069b7bb4d",
+            "uuid": "9dbe69c148d945d0b3a243e711f02dca"
+          }
+        ],
+        [
+          "24.9K",
+          1,
+          "R0805",
+          "R16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2492T5E",
+            "BOM_Supplier Part": "C17571",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "086ba67bf9d04ba3928dad9ed8fda700"
+          }
+        ],
+        [
+          "210K",
+          1,
+          "R0805",
+          "R17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2103T5E",
+            "BOM_Supplier Part": "C17547",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "447a785e455f195a0c7102942ce62120"
+          }
+        ],
+        [
+          "4.7uF",
+          3,
+          "CAP-SMD_BD4.0-L4.3-W4.3-FD",
+          "C11,C12,C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "CS1C4R7M-CRC54",
+            "BOM_Supplier Part": "C116396",
+            "puuid": "049abf8d4a024668bc414a4ecc76ecfc",
+            "uuid": "714f20c8796a4edc918f2852324afa51"
+          }
+        ],
+        [
+          "4.7uF",
+          2,
+          "CAP-SMD_BD5.0-L5.3-W5.3-FD",
+          "C16,C17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C264058",
+            "BOM_Manufacturer": "PANASONIC",
+            "BOM_Manufacturer Part": "EEEFK1J4R7R",
+            "puuid": "b4499b8294224146ab63584189efd00f",
+            "uuid": "a3b223946c674f52b548c5901a5b0943"
+          }
+        ],
+        [
+          "LM1117S-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HTC",
+            "BOM_Manufacturer Part": "LM1117S-3.3",
+            "BOM_Supplier Part": "C126027",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "a7733dd1999e4972ab1ac55464a84185"
+          }
+        ],
+        [
+          "TPS54560DDAR",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP",
+          "U15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "TPS54560DDAR",
+            "BOM_Supplier Part": "C31966",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "1c299b56118d49eea03a1cb3b143481c",
+            "uuid": "b73f6ec215a841d6805a909376336eed"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C9,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C131173",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TLJA476M010R0600",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "61ca4390f2284e11848b2ab1e8ce9766",
+            "uuid": "f4a354b31bd047b8b8ca6b867b3929ad"
+          }
+        ],
+        [
+          "100 nF",
+          1,
+          "C0805",
+          "C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "4.7 uF",
+          1,
+          "C0805",
+          "C15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ]
+      ],
+      "updateTime": 1591709359,
+      "createTime": 1591708602,
+      "histories": [],
+      "created_at": "2020-06-09 16:16:42",
+      "updated_at": "2020-06-09 16:29:19"
+    },
+    {
+      "uuid": "6dd1e154735d4b4dc0eec65d91abc091",
+      "title": "Comminication Sheet",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c3ea0f04045a57b4ed605f24deecdb76": 1,
+        "a765318d9d42445dadb725ea2a780055": 1,
+        "6f599768c16c4826898a5271fb1d5a3f": 2,
+        "f1aeea4c41e4e7763018f1fbd6b73120": 6,
+        "f4a354b31bd047b8b8ca6b867b3929ad": 2,
+        "1f1539161d874efe8b9b7289d25f9c9c": 1,
+        "02d74a7a73a4602d93b4706b03a5c70f": 2,
+        "b970ddcfabf1410591dc576fc46cd571": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "IC_UC_STM32",
+          1,
+          "LQFP48",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "473529f3a20749d3aefffda51c9401bb",
+            "uuid": ""
+          }
+        ],
+        [
+          "HEADER-20P-2.54",
+          2,
+          "H20-2.54",
+          "J1,J2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "25fe952f38a943059348091dc01eeccc",
+            "uuid": ""
+          }
+        ],
+        [
+          "header4",
+          1,
+          "H4-2.54",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "f7a70c43bedd425894f6ff7b10746010",
+            "uuid": ""
+          }
+        ],
+        [
+          "100nF",
+          5,
+          "0603",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B104K500NT",
+            "BOM_Supplier Part": "E30926",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "510Ω",
+          2,
+          "0603",
+          "R1,R2",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "LEDCHIPLED_0805",
+          2,
+          "CHIPLED_0805",
+          "LED1,LED2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "2fc4d562f5374a47b197e88d1c17fb94",
+            "uuid": ""
+          }
+        ],
+        [
+          "8M",
+          1,
+          "HC-49U",
+          "XTAL1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "fe9ef86a95d5430db2850d0d5beb110b",
+            "uuid": ""
+          }
+        ],
+        [
+          "1M",
+          1,
+          "0603",
+          "R3",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "105",
+          1,
+          "0603",
+          "C14",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B104K500NT",
+            "BOM_Supplier Part": "E30926",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "10K",
+          1,
+          "0603",
+          "R7",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "2P-SW-SMD",
+          1,
+          "2PSW-SMD",
+          "S1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "5287fda756d740219e1cead855ec9761",
+            "uuid": ""
+          }
+        ],
+        [
+          "100K",
+          2,
+          "0603",
+          "R8,R9",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "F185-1203A1BSYA1",
+          1,
+          "H2X3-2.54",
+          "J4",
+          {
+            "BOM_Supplier": "SeeedStudio",
+            "BOM_Manufacturer Part": "F185-1203A1BSYA1",
+            "BOM_Supplier Part": "320030011",
+            "puuid": "f4f5e0556f884d0a91b0ccc3c7e34061",
+            "uuid": ""
+          }
+        ],
+        [
+          "CAP",
+          2,
+          "0603-CAP",
+          "C6,C7",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "7d800e8be4c24b9d84cc3cb042fcd29a",
+            "uuid": ""
+          }
+        ],
+        [
+          "30002-24A-T1P",
+          1,
+          "CONN-TH_30002-24A-T1P",
+          "CN3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C185099",
+            "BOM_Manufacturer": "Zhejiang Yueqing Hongxing Elec",
+            "BOM_Manufacturer Part": "30002-24A-T1P",
+            "puuid": "89a40636be5e48339c919901061d3936",
+            "uuid": "51c38c41cc1840d392b95d9f887cdc4f"
+          }
+        ],
+        [
+          "BM06B-GHS-TBT(LF)(SN)(N",
+          1,
+          "CONN-SMD_6P-P1.25_BM06B-GHS-TBT(LF)(SN)(N",
+          "U11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C189892",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "BM06B-GHS-TBT(LF)(SN)(N",
+            "puuid": "c7cdc8d1589548b2ac327dfc5346a150",
+            "uuid": "0b9c56ae23514266bc0a8cb39be3dec1"
+          }
+        ],
+        [
+          "100uH",
+          1,
+          "IND-SMD_L12.0-W12.0",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C397808",
+            "BOM_Manufacturer": "Sunltech Tech",
+            "BOM_Manufacturer Part": "SLH1204S101MTT",
+            "puuid": "0859426ee4d44657957e59002fee2887",
+            "uuid": "4a2a36c77d7340649cbf8398a8e8e384"
+          }
+        ],
+        [
+          "10.2K",
+          1,
+          "R0805",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "53.6K",
+          1,
+          "R0805",
+          "R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "16.9K",
+          1,
+          "R0805",
+          "R12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "243K",
+          1,
+          "R0805",
+          "R13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "90.9K",
+          1,
+          "R0805",
+          "R14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "442K",
+          1,
+          "R0805",
+          "R15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "B540C-13-F",
+          1,
+          "SMC_L6.9-W5.9-LS7.9-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "DIODES",
+            "BOM_Manufacturer Part": "B540C-13-F",
+            "BOM_Supplier Part": "C72264",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7d9bf6c8863c45219d27799069b7bb4d",
+            "uuid": "9dbe69c148d945d0b3a243e711f02dca"
+          }
+        ],
+        [
+          "24.9K",
+          1,
+          "R0805",
+          "R16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2492T5E",
+            "BOM_Supplier Part": "C17571",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "086ba67bf9d04ba3928dad9ed8fda700"
+          }
+        ],
+        [
+          "210K",
+          1,
+          "R0805",
+          "R17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2103T5E",
+            "BOM_Supplier Part": "C17547",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "447a785e455f195a0c7102942ce62120"
+          }
+        ],
+        [
+          "4.7uF",
+          3,
+          "CAP-SMD_BD4.0-L4.3-W4.3-FD",
+          "C11,C12,C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "CS1C4R7M-CRC54",
+            "BOM_Supplier Part": "C116396",
+            "puuid": "049abf8d4a024668bc414a4ecc76ecfc",
+            "uuid": "714f20c8796a4edc918f2852324afa51"
+          }
+        ],
+        [
+          "4.7uF",
+          2,
+          "CAP-SMD_BD5.0-L5.3-W5.3-FD",
+          "C16,C17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C264058",
+            "BOM_Manufacturer": "PANASONIC",
+            "BOM_Manufacturer Part": "EEEFK1J4R7R",
+            "puuid": "b4499b8294224146ab63584189efd00f",
+            "uuid": "a3b223946c674f52b548c5901a5b0943"
+          }
+        ],
+        [
+          "LM1117S-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HTC",
+            "BOM_Manufacturer Part": "LM1117S-3.3",
+            "BOM_Supplier Part": "C126027",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "a7733dd1999e4972ab1ac55464a84185"
+          }
+        ],
+        [
+          "TPS54560DDAR",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP",
+          "U15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "TPS54560DDAR",
+            "BOM_Supplier Part": "C31966",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "1c299b56118d49eea03a1cb3b143481c",
+            "uuid": "b73f6ec215a841d6805a909376336eed"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C9,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C131173",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TLJA476M010R0600",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "61ca4390f2284e11848b2ab1e8ce9766",
+            "uuid": "f4a354b31bd047b8b8ca6b867b3929ad"
+          }
+        ],
+        [
+          "100 nF",
+          1,
+          "C0805",
+          "C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "4.7 uF",
+          1,
+          "C0805",
+          "C15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "TJA1051T/1J",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NXP",
+            "BOM_Manufacturer Part": "TJA1051T/1J",
+            "BOM_Supplier Part": "C92211",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "fea11772be3e46fc9943dcf3594665f6",
+            "uuid": "1f1539161d874efe8b9b7289d25f9c9c"
+          }
+        ],
+        [
+          "100",
+          2,
+          "R0805",
+          "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8J0101T5E",
+            "BOM_Supplier Part": "C25277",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "02d74a7a73a4602d93b4706b03a5c70f"
+          }
+        ],
+        [
+          "10uH",
+          2,
+          "L0805",
+          "L2,L3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111772",
+            "BOM_Manufacturer": "Shenzhen Zhenhua Fu Elec",
+            "BOM_Manufacturer Part": "CI2012C100K(f)",
+            "puuid": "8575d4a67a3f4c179607f0acaae4f7e7",
+            "uuid": "6f599768c16c4826898a5271fb1d5a3f"
+          }
+        ],
+        [
+          "micro 5PBoard7.2Long leg1.1No column",
+          1,
+          "MICRO-USB-SMD_U-F-M5DS-Y-1",
+          "USB2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro 5PBoard7.2Long leg1.1No column",
+            "BOM_Supplier Part": "C40951",
+            "puuid": "7ef0192927184a0ca10e72d3ae683a9d",
+            "uuid": "a765318d9d42445dadb725ea2a780055"
+          }
+        ],
+        [
+          "BM04B-GHS-TBT(LF)(SN)",
+          2,
+          "CONN-SMD_4P-P1.25_BM04B-GHS-TBT(LF)(SN)",
+          "CN1,CN2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C161692",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "BM04B-GHS-TBT(LF)(SN)",
+            "puuid": "e5f4e8a3078e4c3fb8fc77100390337f",
+            "uuid": "b970ddcfabf1410591dc576fc46cd571"
+          }
+        ],
+        [
+          "FT232RL-REEL",
+          1,
+          "SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FTDI",
+            "BOM_Manufacturer Part": "FT232RL-REEL",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C8690",
+            "puuid": "0a5feb38832f43d299fcddfcb8bc7426",
+            "uuid": "c3ea0f04045a57b4ed605f24deecdb76"
+          }
+        ],
+        [
+          "10nF",
+          5,
+          "C0805",
+          "C19,C20,C22,C23,C24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WTC",
+            "BOM_Manufacturer Part": "0805B103K500",
+            "BOM_Supplier Part": "C83058",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "f1aeea4c41e4e7763018f1fbd6b73120"
+          }
+        ],
+        [
+          "1nF",
+          1,
+          "C0805",
+          "C26",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WTC",
+            "BOM_Manufacturer Part": "0805B103K500",
+            "BOM_Supplier Part": "C83058",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "f1aeea4c41e4e7763018f1fbd6b73120"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C21,C25",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C131173",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TLJA476M010R0600",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "61ca4390f2284e11848b2ab1e8ce9766",
+            "uuid": "f4a354b31bd047b8b8ca6b867b3929ad"
+          }
+        ]
+      ],
+      "updateTime": 1591713134,
+      "createTime": 1591709441,
+      "histories": [],
+      "created_at": "2020-06-09 16:30:41",
+      "updated_at": "2020-06-09 17:32:14"
+    },
+    {
+      "uuid": "132535a7a393622006ca774ff9559b1c",
+      "title": "Sbus&PWM",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "IC_UC_STM32",
+          1,
+          "LQFP48",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "473529f3a20749d3aefffda51c9401bb",
+            "uuid": ""
+          }
+        ],
+        [
+          "HEADER-20P-2.54",
+          2,
+          "H20-2.54",
+          "J1,J2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "25fe952f38a943059348091dc01eeccc",
+            "uuid": ""
+          }
+        ],
+        [
+          "header4",
+          1,
+          "H4-2.54",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "f7a70c43bedd425894f6ff7b10746010",
+            "uuid": ""
+          }
+        ],
+        [
+          "100nF",
+          5,
+          "0603",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B104K500NT",
+            "BOM_Supplier Part": "E30926",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "510Ω",
+          2,
+          "0603",
+          "R1,R2",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "LEDCHIPLED_0805",
+          2,
+          "CHIPLED_0805",
+          "LED1,LED2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "2fc4d562f5374a47b197e88d1c17fb94",
+            "uuid": ""
+          }
+        ],
+        [
+          "8M",
+          1,
+          "HC-49U",
+          "XTAL1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "fe9ef86a95d5430db2850d0d5beb110b",
+            "uuid": ""
+          }
+        ],
+        [
+          "1M",
+          1,
+          "0603",
+          "R3",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "105",
+          1,
+          "0603",
+          "C14",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B104K500NT",
+            "BOM_Supplier Part": "E30926",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "10K",
+          1,
+          "0603",
+          "R7",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "2P-SW-SMD",
+          1,
+          "2PSW-SMD",
+          "S1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "5287fda756d740219e1cead855ec9761",
+            "uuid": ""
+          }
+        ],
+        [
+          "100K",
+          2,
+          "0603",
+          "R8,R9",
+          {
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF5100T5E",
+            "BOM_Supplier Part": "E23193",
+            "puuid": "37f403b8f2c64219a86a53bf250027c8",
+            "uuid": ""
+          }
+        ],
+        [
+          "F185-1203A1BSYA1",
+          1,
+          "H2X3-2.54",
+          "J4",
+          {
+            "BOM_Supplier": "SeeedStudio",
+            "BOM_Manufacturer Part": "F185-1203A1BSYA1",
+            "BOM_Supplier Part": "320030011",
+            "puuid": "f4f5e0556f884d0a91b0ccc3c7e34061",
+            "uuid": ""
+          }
+        ],
+        [
+          "CAP",
+          2,
+          "0603-CAP",
+          "C6,C7",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "7d800e8be4c24b9d84cc3cb042fcd29a",
+            "uuid": ""
+          }
+        ],
+        [
+          "BM06B-GHS-TBT(LF)(SN)(N",
+          1,
+          "CONN-SMD_6P-P1.25_BM06B-GHS-TBT(LF)(SN)(N",
+          "U11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C189892",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "BM06B-GHS-TBT(LF)(SN)(N",
+            "puuid": "c7cdc8d1589548b2ac327dfc5346a150",
+            "uuid": "0b9c56ae23514266bc0a8cb39be3dec1"
+          }
+        ],
+        [
+          "100uH",
+          1,
+          "IND-SMD_L12.0-W12.0",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C397808",
+            "BOM_Manufacturer": "Sunltech Tech",
+            "BOM_Manufacturer Part": "SLH1204S101MTT",
+            "puuid": "0859426ee4d44657957e59002fee2887",
+            "uuid": "4a2a36c77d7340649cbf8398a8e8e384"
+          }
+        ],
+        [
+          "10.2K",
+          1,
+          "R0805",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "53.6K",
+          1,
+          "R0805",
+          "R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "16.9K",
+          1,
+          "R0805",
+          "R12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "243K",
+          1,
+          "R0805",
+          "R13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "90.9K",
+          1,
+          "R0805",
+          "R14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "442K",
+          1,
+          "R0805",
+          "R15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269742",
+            "BOM_Manufacturer": "Tyohm",
+            "BOM_Manufacturer Part": "RMC080510K1%N",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "9ad0161293bd42799a79b159cb9c5f3f"
+          }
+        ],
+        [
+          "B540C-13-F",
+          1,
+          "SMC_L6.9-W5.9-LS7.9-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "DIODES",
+            "BOM_Manufacturer Part": "B540C-13-F",
+            "BOM_Supplier Part": "C72264",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7d9bf6c8863c45219d27799069b7bb4d",
+            "uuid": "9dbe69c148d945d0b3a243e711f02dca"
+          }
+        ],
+        [
+          "24.9K",
+          1,
+          "R0805",
+          "R16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2492T5E",
+            "BOM_Supplier Part": "C17571",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "086ba67bf9d04ba3928dad9ed8fda700"
+          }
+        ],
+        [
+          "210K",
+          1,
+          "R0805",
+          "R17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2103T5E",
+            "BOM_Supplier Part": "C17547",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "447a785e455f195a0c7102942ce62120"
+          }
+        ],
+        [
+          "4.7uF",
+          3,
+          "CAP-SMD_BD4.0-L4.3-W4.3-FD",
+          "C11,C12,C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "CS1C4R7M-CRC54",
+            "BOM_Supplier Part": "C116396",
+            "puuid": "049abf8d4a024668bc414a4ecc76ecfc",
+            "uuid": "714f20c8796a4edc918f2852324afa51"
+          }
+        ],
+        [
+          "4.7uF",
+          2,
+          "CAP-SMD_BD5.0-L5.3-W5.3-FD",
+          "C16,C17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C264058",
+            "BOM_Manufacturer": "PANASONIC",
+            "BOM_Manufacturer Part": "EEEFK1J4R7R",
+            "puuid": "b4499b8294224146ab63584189efd00f",
+            "uuid": "a3b223946c674f52b548c5901a5b0943"
+          }
+        ],
+        [
+          "LM1117S-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HTC",
+            "BOM_Manufacturer Part": "LM1117S-3.3",
+            "BOM_Supplier Part": "C126027",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "a7733dd1999e4972ab1ac55464a84185"
+          }
+        ],
+        [
+          "TPS54560DDAR",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP",
+          "U15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "TPS54560DDAR",
+            "BOM_Supplier Part": "C31966",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "1c299b56118d49eea03a1cb3b143481c",
+            "uuid": "b73f6ec215a841d6805a909376336eed"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C9,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C131173",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TLJA476M010R0600",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "61ca4390f2284e11848b2ab1e8ce9766",
+            "uuid": "f4a354b31bd047b8b8ca6b867b3929ad"
+          }
+        ],
+        [
+          "100 nF",
+          1,
+          "C0805",
+          "C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "4.7 uF",
+          1,
+          "C0805",
+          "C15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282732",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805X7R104K500DT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "fa21b000d3d14043b770f524fd9009d9"
+          }
+        ],
+        [
+          "TJA1051T/1J",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NXP",
+            "BOM_Manufacturer Part": "TJA1051T/1J",
+            "BOM_Supplier Part": "C92211",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "fea11772be3e46fc9943dcf3594665f6",
+            "uuid": "1f1539161d874efe8b9b7289d25f9c9c"
+          }
+        ],
+        [
+          "100",
+          2,
+          "R0805",
+          "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8J0101T5E",
+            "BOM_Supplier Part": "C25277",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "02d74a7a73a4602d93b4706b03a5c70f"
+          }
+        ],
+        [
+          "10uH",
+          2,
+          "L0805",
+          "L2,L3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111772",
+            "BOM_Manufacturer": "Shenzhen Zhenhua Fu Elec",
+            "BOM_Manufacturer Part": "CI2012C100K(f)",
+            "puuid": "8575d4a67a3f4c179607f0acaae4f7e7",
+            "uuid": "6f599768c16c4826898a5271fb1d5a3f"
+          }
+        ],
+        [
+          "micro 5PBoard7.2Long leg1.1No column",
+          1,
+          "MICRO-USB-SMD_U-F-M5DS-Y-1",
+          "USB2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro 5PBoard7.2Long leg1.1No column",
+            "BOM_Supplier Part": "C40951",
+            "puuid": "7ef0192927184a0ca10e72d3ae683a9d",
+            "uuid": "a765318d9d42445dadb725ea2a780055"
+          }
+        ],
+        [
+          "BM04B-GHS-TBT(LF)(SN)",
+          2,
+          "CONN-SMD_4P-P1.25_BM04B-GHS-TBT(LF)(SN)",
+          "CN1,CN2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C161692",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "BM04B-GHS-TBT(LF)(SN)",
+            "puuid": "e5f4e8a3078e4c3fb8fc77100390337f",
+            "uuid": "b970ddcfabf1410591dc576fc46cd571"
+          }
+        ],
+        [
+          "FT232RL-REEL",
+          1,
+          "SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FTDI",
+            "BOM_Manufacturer Part": "FT232RL-REEL",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C8690",
+            "puuid": "0a5feb38832f43d299fcddfcb8bc7426",
+            "uuid": "c3ea0f04045a57b4ed605f24deecdb76"
+          }
+        ],
+        [
+          "10nF",
+          5,
+          "C0805",
+          "C19,C20,C22,C23,C24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WTC",
+            "BOM_Manufacturer Part": "0805B103K500",
+            "BOM_Supplier Part": "C83058",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "f1aeea4c41e4e7763018f1fbd6b73120"
+          }
+        ],
+        [
+          "1nF",
+          1,
+          "C0805",
+          "C26",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WTC",
+            "BOM_Manufacturer Part": "0805B103K500",
+            "BOM_Supplier Part": "C83058",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "f1aeea4c41e4e7763018f1fbd6b73120"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C21,C25",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C131173",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TLJA476M010R0600",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "61ca4390f2284e11848b2ab1e8ce9766",
+            "uuid": "f4a354b31bd047b8b8ca6b867b3929ad"
+          }
+        ]
+      ],
+      "updateTime": 1591714921,
+      "createTime": 1591714921,
+      "histories": [],
+      "created_at": "2020-06-09 18:02:01",
+      "updated_at": "2020-06-09 18:02:01"
+    }
+  ],
+  "sort": [
+    "c4da1992aa631a63faeae791dff2fc55",
+    "9fe0bbfdc8aed5f78f7725f74dd722ea",
+    "6dd1e154735d4b4dc0eec65d91abc091",
+    "132535a7a393622006ca774ff9559b1c"
+  ],
+  "title": "Dronmarket Controller",
+  "foldername": "Dronmarket Controller",
+  "schfilename": "Dronmarket Controller.json",
+  "schfilemtime": 1591714938260
+}

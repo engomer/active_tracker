@@ -1,0 +1,13 @@
+String getSplittedValuee(String data, char separator, int index);
+void SD_setUser(String usr);
+String SD_getUser();
+void SD_initSDL();
+void SD_fixSD(int array_size);
+void SD_printSD(float temp, float hum, float gyrox, float gyroy, float gyroz, float accx, float accy, float accz, float latt, float longg, float gnssnum, float glonassnum, String datee, String timee);
+void SD_makeJSON(int array_size);
+int SD_getJsonSize();
+void SD_serializeJSON(int type);
+void SD_freeJSON();
+void removeOld();
+//void showJsonArraySize();
+size_t getJsonObjectSize();
